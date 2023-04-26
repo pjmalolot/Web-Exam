@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 28vh 23.5vw;
+}
+
+body {
+    display: flex;
+    align-content: center;
+}
+
+.box1 {
+    margin: 28vh 0 28vh 35vw;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box2 {
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.box3 {
+    padding: 0 2vw;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box4 {
+    margin: 28vh 0 28vh 35vw;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imagebox {
+    height: 32vh;
+    width: 25vw;
+    background-image: url("img/Dell_G5_15_5590_Laptop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.textbox {
+    text-align: center;
+    font-size: medium;
+}
+
+.textbox b {
+    color: purple;
+}
+
+.buttonbox {
+    text-align: center;
+}
+
+.buttonbox1 {
+    text-align: center;
+    padding: 2vh;
+}
+
+.buttonbox button {
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 1vh 0;
+    font-size: large;
+    font-weight: bold;
+    padding: .5vh;
+    background-color:aqua;
+}
+.buttonbox button:hover {
+    background-color:aquamarine;
+}
+
+span{
+    font-size: medium;
+    color: red;
+    font-weight: bold;
+    margin: 0 1vw;
+}
+
+.buttonbox1 a {
+    text-decoration: none;
+    margin: 1vh 0;
+    font-size: large;
+    font-weight: bold;
+    padding: 1vh;
+    background-color:aqua;
+    border-radius: 5px;
+    color: black;
+}
+.buttonbox1 a:hover {
+    background-color:aquamarine;
+}
+
+.titlebox {
+    color: gray;
+}
+
+.textboxab {
+    margin: 3vh 0;
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    margin-right: 1vw;
+}
+
+.textboxb {
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.textboxc {
+    margin: 2vh 0 8vh 0;
+    display: flex;
+    flex-direction: row;
+}
